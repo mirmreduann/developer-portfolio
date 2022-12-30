@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+    margin: 0 5%;
+}
+
+.button {
+    text-decoration: none;
+    background-color: magenta;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.image {
+    width: 100%;
+}
